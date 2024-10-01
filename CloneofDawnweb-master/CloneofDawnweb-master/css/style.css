@@ -1,0 +1,103 @@
+@font-face {
+    font-family:Poppins ;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family:Clash Display Bold;
+    src: url(../fonts/ClashDisplayBold.otf);
+}
+@font-face {
+    font-family:ClashDisplayRegular ;
+    src: url(../fonts/ClashDisplayRegular.otf);
+}
+/* *{
+    border: 1px solid #FF006A;
+} */
+.poppins-reg{
+font-family: Poppins;
+}
+.ClashDisplayReg{
+    font-family: ClashDisplayRegular;
+}
+
+.Clash-Display-bold{
+    font-family:Clash Display Bold;
+}
+.pink-mix{
+    background-image: linear-gradient(90deg, #A734BD 0%, #FF006A 100%);
+    -webkit-background-clip: text; /* For Safari */
+    background-clip: text;
+    color: transparent; /* Hide the original text color */
+    
+}
+.paracolor{
+    color: #DBDBDB;
+}
+.my-pos-absolute-current{
+    position: absolute;
+    top: 20%;
+    right: 28%;
+}
+.my-pos-absolute-love{
+    position: absolute;
+    top: 65%;
+    right: 25%;
+}
+.my-pos-absolute-fire{
+position: absolute;
+top: 26%;
+left: 25%;
+}
+
+/* 4 border div properties  */
+
+@media screen and (max-width:2000px) and (min-width:991px) {
+    .private-border{
+        border-style:solid; 
+        border-color: #4e2244; 
+        border-top-left-radius: 30px;
+        border-end-start-radius:30px ; 
+        background-color:#34213480;
+    }
+    .transparent-border{
+        border-style:solid;
+        border-left: transparent; 
+        border-color: #4e2244; 
+        background-color:#34213480;
+            
+    }
+    .global-border{
+        border-style:solid; 
+            border-end-end-radius: 30px;
+            border-top-right-radius: 30px; 
+            border-left:hidden ;
+            border-color: #4e2244; 
+            background-color:#34213480;
+            
+    }
+    
+}
+@media screen and (max-width:990px) and (min-width:300px) {
+    .private-border{
+        border-style:solid; 
+        border-color: #4e2244; 
+        border-radius: 30px;
+        background-color:#34213480;
+    }
+    .transparent-border{
+        border-style:solid; 
+        border-color: #4e2244; 
+        border-radius: 30px;
+        background-color:#34213480;
+            
+    }
+    .global-border{
+        border-style:solid; 
+        border-color: #4e2244; 
+        border-radius: 30px;
+        background-color:#34213480;
+            
+    }
+    
+}
+/* end of 4 border div  */
